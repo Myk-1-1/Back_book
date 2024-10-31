@@ -1,0 +1,23 @@
+{
+    "name": "library/app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Library\\App\\": "public/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Library\\App\\Tests\\": "public/tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mykyta"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^11.4@dev"
+    }
+}

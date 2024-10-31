@@ -1,0 +1,25 @@
+table, th, td {
+    border: 1px solid;
+    width: 100%;
+  }
+.id{
+    width: 2%;
+}
+.title{
+    width: 8%;
+}
+.author{
+    width: 5%;
+}
+.year{
+    width: 1.5%;
+}
+.image_path{
+    width: 10%;
+}
+.cat{
+    width: 4%;
+}
+.create{
+    width: 4%;
+}
